@@ -1,0 +1,8 @@
+// Create a POST request to the /api/send endpoint
+POST http://localhost:3000/api/send
+Content-Type: multipart/form-data
+
+username=John Doe
+email=john.doe@example.com
+content=Hello, world!
+file=@/path/to/file.txt
